@@ -48,7 +48,14 @@ export default function RootLayout({ children }: { children: ReactNode }) {
               alt="驰腾软件"
               className="fill-current"
             />
-            <p>Copyright © 2023 - All right reserved. </p>
+            <p>
+              Copyright © 2023 - All right reserved.
+              (本站完全由本公司ai模型生成)
+              <br />
+              <a href="http://beian.miit.gov.cn/" target="_blank">
+                苏ICP备2023044600号-1
+              </a>
+            </p>
           </aside>
           <nav className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
             <a>
